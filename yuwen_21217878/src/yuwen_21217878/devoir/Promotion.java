@@ -27,7 +27,7 @@ public class Promotion extends Devoir2_Etudiant {
 		}
 	
 
-	}
+	 }
 	
 
 }
