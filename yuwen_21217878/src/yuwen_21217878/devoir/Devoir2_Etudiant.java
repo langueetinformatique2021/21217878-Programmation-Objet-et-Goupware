@@ -56,6 +56,14 @@ public class Devoir2_Etudiant {
                 '.';
 
     }
+
+	public void getDevoir2_Etudiant() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	}
 }
 
 
