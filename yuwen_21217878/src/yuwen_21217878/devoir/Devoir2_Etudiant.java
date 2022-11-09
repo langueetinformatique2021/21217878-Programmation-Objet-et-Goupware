@@ -4,13 +4,13 @@ package yuwen_21217878.devoir;
 public class Devoir2_Etudiant {
     private String name;
     private String sex;
-    private int age;
-    private int note;
+    private int annee;
+    private double note;
 
-    public Devoir2_Etudiant(String name, String sex, int age, int note) {
+    public Devoir2_Etudiant(String name, String sex, int annee, double note) {
         this.name = name;
         this.sex = sex;
-        this.age = age;
+        this.annee = annee;
         this.note = note;
     }
 
@@ -30,14 +30,14 @@ public class Devoir2_Etudiant {
         this.sex = sex;
     }
 
-    public int getAge() {
-        return age;
+    public int getAnnee() {
+        return annee;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAnnee(int annee) {
+        this.annee = annee;
     }
-    public int getNote() {
+    public double getNote() {
         return note;
     }
 
@@ -50,7 +50,7 @@ public class Devoir2_Etudiant {
         return "etudiants msg:" +
                 "name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
-                ", age=" + age +
+                ", age=" + annee +
                 '.'+
                 ", age=" + note+
                 '.';
